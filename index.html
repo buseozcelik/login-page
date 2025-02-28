@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/form.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="form">
+        <div class="login">
+            <img src="img/login.png" alt="" width="375" height="450">
+
+            <div class="right">
+                <h4>GİRİŞ YAP</h4>
+                <input type="text" placeholder="Kullanıcı Adı" required>
+                <input type="password" placeholder="Şifre" required>
+                <button>Giriş Yap</button>
+                <div class="control">
+                    <span class="reset">Şifremi Unuttum</span>
+                    <span class="new-account">Yeni Hesap Oluştur</span>
+                </div>
+                <div class="social-media">
+                    <div class="social">
+                        <i class='bx bxl-google'></i>
+                    </div>
+                    <div class="social">
+                        <i class='bx bxl-microsoft'></i>
+                    </div>
+                    <div class="social">
+                        <i class='bx bxl-apple'></i>
+                    </div>
+                    <div class="social">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register">
+            <div class="right">
+                <h4>Kayıt Ol</h4>
+                <input type="text" placeholder="Kullanıcı Adı" required>
+                <input type="password" placeholder="Şifre" required>
+                <input type="password" placeholder="Şifre Tekrar" required>
+                <input type="email" placeholder="E-Posta" required>
+                <button>Kayıt Ol</button>
+                <div class="control">
+                    <span class="already-account">Zaten Hesabım Var</span>
+                </div>
+            </div>
+            <img src="img/register.png" alt=""  width="375" height="450">
+        </div>
+    </div>
+    <div class="forget-pas">
+        <h2>Şifreni mi Unuttun ?</h2>
+        <p>Aşağıdaki alana e-posta adresinizi girerek şifre yenileme linki alabilirsiniz.</p>
+        <input type="email" placeholder="E-Posta" required>
+        <button>Gönder</button>
+        <i class="bx bx-x close-btn"></i>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
